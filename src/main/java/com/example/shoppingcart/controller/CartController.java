@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/cart")
-@CrossOrigin(origins = "*")  //lubab kõik pordid, mis käimas on
+/*@CrossOrigin(origins = "*")*/  //lubab kõik pordid, mis käimas on
 public class CartController {
 
     private final CartService cartService;
